@@ -280,15 +280,18 @@
 
             <div class="col-md-10" data-aos="flip-down">
 
-                <form action="">
+                <form
+  action="https://formspree.io/f/mjvzwwrd"
+  method="POST"
+>
 
                     <div class="inputBox">
-                        <input type="text" placeholder="full name">
-                        <input type="number" placeholder="phone">
+                        <input type="text"  name="Name" placeholder="full name" required>
+                        <input type="number"  name="Phone" placeholder="phone" required>
                     </div>
 
                     <div class="inputBox">
-                        <input type="email" placeholder="your email">
+                        <input type="email" name="Email"  placeholder="your email"required>
                         <select name="" id="">
                             <option value="" disabled selected>make an appointment</option>
                             <option value="09-11 am">09-11 am</option>
@@ -298,7 +301,7 @@
                         </select>
                     </div>
 
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"required></textarea>
 
                     <input type="submit" name="" id="" value="make appointment" class="button">
 
